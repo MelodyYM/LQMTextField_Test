@@ -15,6 +15,11 @@
 		39F7E70D1D713BB400916C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F7E70B1D713BB400916C7B /* LaunchScreen.storyboard */; };
 		39F7E7181D713BB400916C7B /* LQMTextField_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F7E7171D713BB400916C7B /* LQMTextField_TestTests.m */; };
 		39F7E7231D713BB400916C7B /* LQMTextField_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F7E7221D713BB400916C7B /* LQMTextField_TestUITests.m */; };
+		39F7E7321D713BC400916C7B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F7E7311D713BC400916C7B /* TableViewController.m */; };
+		39F7E7361D713C9500916C7B /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F7E7341D713C9500916C7B /* TableViewCell.m */; };
+		39F7E7371D713C9500916C7B /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F7E7351D713C9500916C7B /* TableViewCell.xib */; };
+		39F7E73A1D713CAD00916C7B /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F7E7391D713CAD00916C7B /* CustomTextField.m */; };
+		39F7E73D1D713EDB00916C7B /* LQM_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F7E73C1D713EDB00916C7B /* LQM_ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		39F7E71E1D713BB400916C7B /* LQMTextField_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQMTextField_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F7E7221D713BB400916C7B /* LQMTextField_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQMTextField_TestUITests.m; sourceTree = "<group>"; };
 		39F7E7241D713BB400916C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F7E7301D713BC400916C7B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		39F7E7311D713BC400916C7B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		39F7E7331D713C9500916C7B /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		39F7E7341D713C9500916C7B /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		39F7E7351D713C9500916C7B /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		39F7E7381D713CAD00916C7B /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		39F7E7391D713CAD00916C7B /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+		39F7E73B1D713EDB00916C7B /* LQM_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQM_ViewController.h; sourceTree = "<group>"; };
+		39F7E73C1D713EDB00916C7B /* LQM_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQM_ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,15 @@
 				39F7E7011D713BB400916C7B /* AppDelegate.m */,
 				39F7E7031D713BB400916C7B /* ViewController.h */,
 				39F7E7041D713BB400916C7B /* ViewController.m */,
+				39F7E7301D713BC400916C7B /* TableViewController.h */,
+				39F7E7311D713BC400916C7B /* TableViewController.m */,
+				39F7E73B1D713EDB00916C7B /* LQM_ViewController.h */,
+				39F7E73C1D713EDB00916C7B /* LQM_ViewController.m */,
+				39F7E7331D713C9500916C7B /* TableViewCell.h */,
+				39F7E7341D713C9500916C7B /* TableViewCell.m */,
+				39F7E7351D713C9500916C7B /* TableViewCell.xib */,
+				39F7E7381D713CAD00916C7B /* CustomTextField.h */,
+				39F7E7391D713CAD00916C7B /* CustomTextField.m */,
 				39F7E7061D713BB400916C7B /* Main.storyboard */,
 				39F7E7091D713BB400916C7B /* Assets.xcassets */,
 				39F7E70B1D713BB400916C7B /* LaunchScreen.storyboard */,
@@ -207,6 +230,7 @@
 				TargetAttributes = {
 					39F7E6F91D713BB400916C7B = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = D9ER9R9RKY;
 					};
 					39F7E7121D713BB400916C7B = {
 						CreatedOnToolsVersion = 7.1;
@@ -244,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39F7E70D1D713BB400916C7B /* LaunchScreen.storyboard in Resources */,
+				39F7E7371D713C9500916C7B /* TableViewCell.xib in Resources */,
 				39F7E70A1D713BB400916C7B /* Assets.xcassets in Resources */,
 				39F7E7081D713BB400916C7B /* Main.storyboard in Resources */,
 			);
@@ -272,7 +297,11 @@
 			files = (
 				39F7E7051D713BB400916C7B /* ViewController.m in Sources */,
 				39F7E7021D713BB400916C7B /* AppDelegate.m in Sources */,
+				39F7E73D1D713EDB00916C7B /* LQM_ViewController.m in Sources */,
 				39F7E6FF1D713BB400916C7B /* main.m in Sources */,
+				39F7E7361D713C9500916C7B /* TableViewCell.m in Sources */,
+				39F7E73A1D713CAD00916C7B /* CustomTextField.m in Sources */,
+				39F7E7321D713BC400916C7B /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,9 +442,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LQMTextField_Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lqm.LQMTextField-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = com1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,9 +454,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LQMTextField_Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lqm.LQMTextField-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = com1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
